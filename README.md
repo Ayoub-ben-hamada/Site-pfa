@@ -60,17 +60,6 @@ CREATE DATABASE bd_installations_CNI;
 
 ### 4.3 Configurer le backend
 
-Le fichier backend/.env doit contenir:
-
-```env
-DATABASE_URL=postgresql+psycopg://postgres:malak@localhost:5432/bd_installations_CNI
-OR
-DATABASE_URL=postgresql+psycopg://postgres:ayoubdb@localhost:5432/bd_installations_CNI
-JWT_SECRET=change-me-in-production
-ACCESS_TOKEN_EXPIRE_MINUTES=1440
-CORS_ORIGINS=http://localhost:3000
-```
-
 Installer les dependances backend:
 
 ```powershell
