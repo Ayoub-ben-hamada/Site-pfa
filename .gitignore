@@ -1,0 +1,26 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables - exclude all .env files except examples
+.env
+.env.local
+.env.production
+backend/.env
+backend/.env.local
+frontend/.env.local
+!.env.example
+!backend/.env.example
+!backend/.env.production.example
+!frontend/.env.example
+
+# Common ignores
+node_modules
+.next/
+.DS_Store
+*.ipynb
+analyse_copy.py

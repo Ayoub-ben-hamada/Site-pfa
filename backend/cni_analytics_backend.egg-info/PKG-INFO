@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: cni-analytics-backend
+Version: 1.0.0
+Summary: CNI Analytics Decision Support System API
+Requires-Python: >=3.12
+Requires-Dist: fastapi[standard]>=0.128.1
+Requires-Dist: pyjwt>=2.8.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: sqlalchemy>=2.0.35
+Requires-Dist: psycopg2-binary>=2.9.1
+Requires-Dist: pydantic[email]>=2.9.2
+Requires-Dist: plotly>=5.24.1
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: scikit-learn>=1.5.0
+Requires-Dist: xgboost>=2.0.3
+Requires-Dist: category-encoders>=2.6.3
+Requires-Dist: shap>=0.46.0
